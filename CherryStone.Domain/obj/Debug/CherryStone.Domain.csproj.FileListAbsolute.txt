@@ -1,0 +1,10 @@
+C:\Users\Toshiba\source\repos\CherryStone\CherryStone.Domain\obj\Debug\CherryStone.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\source\repos\CherryStone\CherryStone.Domain\bin\Debug\CherryStone.Domain.dll.config
+C:\Users\Toshiba\source\repos\CherryStone\CherryStone.Domain\bin\Debug\CherryStone.Domain.dll
+C:\Users\Toshiba\source\repos\CherryStone\CherryStone.Domain\bin\Debug\CherryStone.Domain.pdb
+C:\Users\Toshiba\source\repos\CherryStone\CherryStone.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Toshiba\source\repos\CherryStone\CherryStone.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\source\repos\CherryStone\CherryStone.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Toshiba\source\repos\CherryStone\CherryStone.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\source\repos\CherryStone\CherryStone.Domain\obj\Debug\CherryStone.Domain.dll
+C:\Users\Toshiba\source\repos\CherryStone\CherryStone.Domain\obj\Debug\CherryStone.Domain.pdb

@@ -1,0 +1,53 @@
+﻿@model  CherryStone.Web.ViewModels.Account.ActivateViewModel
+@{
+    ViewBag.Title = "Activate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="row" style="margin-top:50px;margin-bottom:50px;">
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-10">
+
+        <h2 style="margin-bottom:50px;">Activate your Account</h2><br />
+        <form role="form" class="dv-form-bordered" action="/account/activate" method="post">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <span class="">Email Address</span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        @Html.TextBoxFor(a => a.EmailAddress, new { @class = "form-control", placeholder = "Email Address" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <span class="">Code</span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        @Html.TextBoxFor(a => a.Code, new { @class = "form-control", placeholder = "Code" })
+                    </div>
+                </div>
+            </div>
+            <br />
+            <button type="submit" id="submit" name="submit" class="btn btn-primary btn-blue noborder btn-rounded">Activate</button>
+        </form>
+    </div>
+    <div class="col-sm-1">
+    </div>
+</div>
